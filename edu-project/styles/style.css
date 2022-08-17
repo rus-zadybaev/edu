@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/Gilroy-Bold.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Gilroy-Medium.woff2") format("woff2");
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 944px;
+  height: 88px;
+  font-weight: 700;
+  border-bottom: 1px solid #828282;
+}
+
+.header-container a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #828282;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 944px;
+  height: 189px;
+  margin: 0 auto;
+}
+
+.name {
+  font-size: 47.34px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.profession {
+  margin-right: 54px;
+  margin-top: 95px;
+}
+
+.change-lang {
+  writing-mode: vertical-lr;
+  /* Так и не понял как делать текст снизу вверх */
+  font-weight: 700;
+  margin-top: 70px;
+}
+
+.RU-color {
+  color: #828282;
+}
