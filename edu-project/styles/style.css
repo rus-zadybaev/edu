@@ -61,6 +61,7 @@ body {
 .change-lang {
   writing-mode: vertical-lr;
   /* Так и не понял как делать текст снизу вверх */
+  /* И кстати "ru en" считается ссылкой? */
   font-weight: 700;
   margin-top: 70px;
 }
